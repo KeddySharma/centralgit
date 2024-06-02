@@ -1,4 +1,4 @@
-#
+
 """
 Product API Service Test Suite
 
@@ -27,6 +27,7 @@ BASE_URL = "/products"
 
 
 
+# pylint: disable=too-many-public-methods
 class TestProductRoutes(TestCase):
     """Product Service tests"""
 

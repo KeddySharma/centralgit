@@ -1,4 +1,4 @@
-#
+
 """
 Product API Service Test Suite
 
@@ -20,7 +20,6 @@ from service.models import db, init_db, Product
 from tests.factories import ProductFactory
 
 
-DATABASE_URI = os.getenv(
     "DATABASE_URI", "postgresql://postgres:postgres@localhost:5432/postgres"
 )
 BASE_URL = "/products"

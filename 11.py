@@ -1,5 +1,4 @@
-#
-"""
+
 Product API Service Test Suite
 
 Test cases can be run with the following:
@@ -27,6 +26,7 @@ BASE_URL = "/products"
 
 
 
+# pylint: disable=too-many-public-methods
 class TestProductRoutes(TestCase):
     """Product Service tests"""
 

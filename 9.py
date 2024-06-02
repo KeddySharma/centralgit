@@ -1,4 +1,4 @@
-#
+
 """
 Product API Service Test Suite
 
@@ -26,9 +26,7 @@ DATABASE_URI = os.getenv(
 BASE_URL = "/products"
 
 
-
-class TestProductRoutes(TestCase):
-    """Product Service tests"""
+#    """Product Service tests"""
 
     @classmethod
     def setUpClass(cls):
